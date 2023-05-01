@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Service Rep. Comments</title>
+  <meta name="description" content="Service Rep. Comments">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- your content here... -->
+  <div>
+  <label for="policyholderName">Policyholder Name:</label>
+  <input type="text" id="policyholderName" name="policyholderName" required>
+</div>
+<div></div>
+  <label for="policyNumber">Policy Number:</label>
+  <input type="text" id="policyNumber" name="policyNumber" required>
+</div>
+<div>
+  <label for="callReason">Call Reason:</label>
+  <select name="callReason" id="callReason">
+    <option value="">-- Select --</option>
+    <option value="Auto Inquiry">Auto Inquiry</option>
+    <option value="Property Inquiry">Property Inquiry</option>
+    <option value="Billing Inquiry">Billing Inquiry</option>
+  </select>
+</div>
+<div>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+</div>
+  <button id="createDocumentation" class="createDocumentation" type="button">Create Documentation</button>
+
+</body>
+
+</html>
